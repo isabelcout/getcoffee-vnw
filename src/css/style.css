@@ -38,33 +38,28 @@ header h2{
     font-size: 24px;
 }
 
-@media screen and (max-width:500px) {
-    body{
-        background-color: rgb(82, 24, 24);
-        color: white;
-    }
-
-    header{
-        display: flex;
-        justify-content: space-around;
-        height: 20vh;
-        border-bottom: 1px solid rgb(34, 33, 33);
-    }
-
-    header figure{
-        display: flex;
-        flex-direction:column;
-    }
-
-    header ul{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-
-/* main section{
+main section{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-} */
+}
+
+@media screen and (max-width:500px) {
+
+    header{
+        flex-direction: column;
+        height: 24vh;
+    }
+
+    ul{
+        width: 46vw;
+        
+        
+    }
+
+    /* main img{
+        display: none;
+    } */
+
+}
+

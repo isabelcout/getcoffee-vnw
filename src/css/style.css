@@ -38,10 +38,10 @@ header h2{
     font-size: 24px;
 }
 
-main section{
+.primeira-parte{
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-direction: column;
+    width: 50vw;
 }
 
 @media screen and (max-width:500px) {

@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
+    text-decoration: none;
 }
 
 header{
@@ -38,28 +39,40 @@ header h2{
     font-size: 24px;
 }
 
-.primeira-parte{
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+}
+
+.informacoes{
+    width: 35vw;
+    height: 55vh;
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    justify-content: space-evenly;
 }
 
-@media screen and (max-width:500px) {
-
-    header{
-        flex-direction: column;
-        height: 24vh;
-    }
-
-    ul{
-        width: 46vw;
-        
-        
-    }
-
-    /* main img{
-        display: none;
-    } */
-
+h1{
+    font-size: 36px;
+    white-space: pre-line;
 }
+
+button{
+    background-color:#FCA60F;
+    height: 10vh;
+    width: 18vw;
+    border-radius: 5px;
+    border: solid #FCA60F;
+    color: white;
+    font-size: 20px;
+}
+
+main nav{
+    width: 10vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 

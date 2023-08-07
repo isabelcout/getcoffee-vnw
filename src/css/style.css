@@ -75,4 +75,8 @@ main nav{
     justify-content: space-evenly;
 }
 
+footer nav{
+    display: none;
+}
+
 

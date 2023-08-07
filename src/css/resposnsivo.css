@@ -17,4 +17,50 @@
         height: 10vh;
     }
 
+    main{
+        height: 70vh;
+        align-items: flex-start;
+    }
+
+    .copo{
+        display: none;
+    }
+
+    .informacoes{
+        height: 50vh;
+        width: 70vw;
+        align-items: center;
+    }
+
+    main nav{
+        display: none;
+    }
+
+    h1{
+        font-size: 20px;
+        text-align: center;
+        white-space: inherit;
+    }
+
+    button{
+        width: 45vw;
+    }
+
+    footer{
+        text-align: center;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer nav{
+        display: initial;
+        display: flex;
+        width: 35vw;
+    }
+    
+    a{
+        width: 15vw;
+    }
+
 }

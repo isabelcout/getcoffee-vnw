@@ -22,6 +22,11 @@ header figure{
     justify-content: space-evenly;
 }
 
+header figure:hover{
+    transform: scale(115%);
+    cursor: pointer;
+}
+
 header ul{
     display: flex;
     align-items: center;
@@ -33,6 +38,11 @@ header ul{
 
 header li{
     font-size: 20px;
+}
+
+header li:hover{
+    transform: scale(115%);
+    cursor: pointer;
 }
 
 header h2{
@@ -54,6 +64,10 @@ main{
     justify-content: space-evenly;
 }
 
+.copo:hover{
+    transform: scale(95%);
+}
+
 h1{
     font-size: 36px;
     white-space: pre-line;
@@ -69,10 +83,20 @@ button{
     font-size: 20px;
 }
 
+button:hover{
+    transform: scale(115%);
+    cursor: pointer;
+}
+
 main nav{
     width: 10vw;
     display: flex;
     justify-content: space-evenly;
+}
+
+main a:hover{
+    transform: scale(115%);
+    cursor: pointer;
 }
 
 footer nav{
